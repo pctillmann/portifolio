@@ -1,0 +1,140 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.cabecalho {
+    display: flex;
+    background-color: #6c6d65;
+    color: wheat;
+    border-bottom: solid 3px #10dd6c;
+    height: 80px;
+    padding: 0px 30px;
+    font-size: 1.4rem;
+    font-weight: 200;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 60px;
+}
+
+.menu {
+    flex-grow: 1;
+}
+
+.menu>ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu a {
+    color: #10dd6c;
+    text-decoration: none;
+    padding: 10px;
+    margin: opx 10px;
+    border-bottom: 3px solid #6c6d65;
+}
+
+.menu a:hover {
+    border-bottom: 3px solid #10dd6c;
+    color: #ccc;
+}
+
+.botao {
+    padding: 5px 30px;
+    background-color: black;
+    color: wheat;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.botao:hover {
+    box-shadow: 0px 0px 8px #ccc;
+}
+
+
+
+
+.container {
+    display: flex;
+    height: calc(100vh - 138px);
+}
+.container .leftside {
+    flex: 1;
+    background-color: #10dd6c;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+.container .rightside {
+    flex: 1;
+   
+    
+}
+
+.container .rightside img{
+    background-image: url(/assets/images/foto4.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+
+
+
+}
+.container .info {
+    color: #fff;
+}
+.container .info .profession {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+.container .info .name {
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.container .info .buttons a {
+    display: inline-block;
+    background-color: #fff;
+    color: #3b576d;
+    padding: 20px 40px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px #111;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.container .info .buttons a.light {
+    color: #fff;
+    background-color: #3b576d;
+}
+.container .info .buttons a:hover {
+    opacity: 0.8;
+}
+
+footer {
+    display: flex;
+    padding: 20px;
+    color: black#fff;
+    font-size: 13px;
+}
+
+
+    
+    
+
+
