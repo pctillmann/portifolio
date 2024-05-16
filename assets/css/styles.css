@@ -130,7 +130,21 @@ footer {
     display: flex;
     padding: 20px;
     color: black#fff;
-    font-size: 13px;
+
+}
+
+.direitos_altorais {
+    
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-weight: bold;
+
+}
+
+.resdes_sociaia {
+    flex: 1;
+    padding: 0 20px;
 }
 
 
