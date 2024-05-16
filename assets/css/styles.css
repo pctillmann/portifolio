@@ -37,7 +37,7 @@ body{
     color: #10dd6c;
     text-decoration: none;
     padding: 10px;
-    margin: opx 10px;
+    margin: 0px 10px;
     border-bottom: 3px solid #6c6d65;
 }
 
@@ -134,7 +134,7 @@ footer {
 }
 
 .direitos_altorais {
-    
+    flex: 1;
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -142,9 +142,10 @@ footer {
 
 }
 
-.resdes_sociaia {
+.redes_sociais a {
     flex: 1;
-    padding: 0 20px;
+    padding: 0 10px;
+    margin: 0px 10px;
 }
 
 
